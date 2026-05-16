@@ -6,19 +6,19 @@
     "phone": "+91 86554 41161",
     "location": "Mumbai, India",
     "linkedin": "https://linkedin.com/in/vaibhav",
-    "github": "https://github.com/vaibhav"
+    "github": "https://github.com/Vaibhav9888"
   },
   "summary": "Passionate software engineer with 2+ years of experience building scalable web applications. Strong foundation in full-stack development with a focus on clean code and great user experiences.",
   "experience": [
     {
       "company": "LTI Mindtree",
       "role": "Software Engineer",
-      "period": "Apr 2024 – Present",
+      "period": "Apr 2024 – May 2026",
       "location": "Mumbai, India",
       "points": [
-        "Designed and built REST APIs serving 1M+ requests/day using Node.js and Express.",
-        "Led migration of legacy monolith to microservices, reducing deployment time by 60%.",
-        "Mentored 2 junior engineers and conducted regular code reviews."
+        "Developed and enhanced payment-related functionalities for Absa Group web banking applications, ensuring secure and seamless transaction processing.",
+        "Built and maintained microservices-based solutions deployed on Red Hat OpenShift to support scalable and reliable banking services.",
+        "Collaborated with cross-functional teams to deliver high-performance web applications and improve customer digital banking experience."
       ]
     }
     
