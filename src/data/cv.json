@@ -1,0 +1,54 @@
+{
+  "name": "Vaibhav Bhalala",
+  "title": "Software Engineer",
+  "contact": {
+    "email": "vaibhav09bhalala@gmail.com",
+    "phone": "+91 86554 41161",
+    "location": "Mumbai, India",
+    "linkedin": "https://linkedin.com/in/vaibhav",
+    "github": "https://github.com/vaibhav"
+  },
+  "summary": "Passionate software engineer with 2+ years of experience building scalable web applications. Strong foundation in full-stack development with a focus on clean code and great user experiences.",
+  "experience": [
+    {
+      "company": "LTI Mindtree",
+      "role": "Software Engineer",
+      "period": "Apr 2024 – Present",
+      "location": "Mumbai, India",
+      "points": [
+        "Designed and built REST APIs serving 1M+ requests/day using Node.js and Express.",
+        "Led migration of legacy monolith to microservices, reducing deployment time by 60%.",
+        "Mentored 2 junior engineers and conducted regular code reviews."
+      ]
+    }
+    
+  ],
+  "education": [
+    {
+      "institution": "Vidyavardhini's College of Engineering and Technology",
+      "degree": "B E in Information Technology",
+      "period": "2019 – 2023",
+      "grade": "CGPA: 8.5"
+    }
+  ],
+  "skills": {
+    "Languages": ["JavaScript", "TypeScript", "Python", "SQL"],
+    "Frontend": ["React", "HTML5", "CSS3", "Tailwind CSS"],
+    "Backend": ["Node.js", "Express", "REST APIs"],
+    "Tools & Platforms": ["Git", "AWS", "Postgres", "MongoDB"]
+  },
+  "projects": [
+    {
+      "name": "Portfolio Builder",
+      "description": "Portfolio builder where users can create and customize their own portfolios.",
+      "tech": ["React", "Tailwind CSS"],
+      "link": "https://github.com/Vaibhav9888/Portfolio-builder"
+    },
+    {
+      "name": "Expense Tracker",
+      "description": "Full-stack expense tracking app with analytics, recurring payments, and CSV export.",
+      "tech": ["React", "Express", "Postgres"],
+      "link": "https://github.com/Vaibhav9888/Expense_Tracker"
+    }
+  ]
+}
