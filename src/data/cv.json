@@ -40,20 +40,23 @@
   "projects": [
     {
       "name": "Portfolio Builder",
-      "description": "Portfolio builder where users can create and customize their own portfolios.",
+      "description": "JSON-driven portfolio builder that renders resume sections dynamically, allowing users to update professional profiles by editing structured data without changing component code.",
       "tech": ["React", "Tailwind CSS"],
+      "flow": "User updates cv.json -> App loads structured data -> reusable section components render conditionally -> Vite builds and serves a responsive portfolio UI.",
       "link": "https://github.com/Vaibhav9888/Portfolio-builder"
     },
     {
       "name": "Expense Tracker",
-      "description": "Full-stack expense tracking app with analytics, recurring payments, and CSV export.",
-      "tech": ["React", "Express", "Postgres"],
+      "description": "Full-stack expense management app with CRUD operations, category-wise tracking, monthly and overall spend insights, and real-time dashboard updates.",
+      "tech": ["React","Node.js", "Express", "PostgreSQL"],
+      "flow": "Frontend form submits expense data to Express APIs via Vite proxy -> backend validates input and persists records in PostgreSQL -> client refreshes list and recalculates totals and monthly summaries.",
       "link": "https://github.com/Vaibhav9888/Expense_Tracker"
     },
     {
       "name": "MoviesRecommendation",
-      "description": "Full-stack movie recommendation app with genre filters and movie redirect links.",
+      "description": "Android movie discovery app built with Clean Architecture and MVVM, featuring genre filtering, paginated browsing, and offline-first access for smoother user experience.",
       "tech": ["Kotlin"],
+      "flow": "ViewModel triggers parallel genre and movie fetches -> repository serves data from Room cache when available or from Retrofit APIs otherwise -> LazyColumn loads additional pages on scroll and opens source URLs on item tap.",
       "link": "https://github.com/Vaibhav9888/MoviesRecommendation"
     }
   ]
